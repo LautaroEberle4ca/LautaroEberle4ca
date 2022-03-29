@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout
+            << "Ingrese 1 para ver si un numero es impar y menor a 100, 2 para ver si un numero es positivo, negativo o igual a 0 o 3 para saludar a 2 personas"
+            << endl;
+    int num;
+    cin >> num;
+    if(num = 1)
+    {
+        cout << "ingrese un numero" << endl;
+        int num1;
+        cin >> num1;
+        if (num1 > 100 && num1 %2==0) {
+            cout << " el numero ingresado es par y mayor a 100" << endl;
+        }
+        else if (num1 < 100 && num1 %2==0){
+            cout << " el numero ingresado es par y menor a 100" << endl;
+        }
+        else if (num1 > 100 && num1 %2==1){
+            cout << " el numero ingresado no es par y mayor a 100" << endl;
+        }
+        else if (num1 == 100 && num1 %2==0) {
+            cout << " el numero ingresado  es par y es igual a 100" << endl;
+        }
+        else
+            cout << " el numero ingresado no es par y es menor a 100" << endl;}
+        else if (num == 2) {
+        cout << "ingrese un numero" << endl;
+        int num3;
+        cin >> num3;
+        if (num3 > 0){
+            cout << "el num es positivo" << endl;
+        } else if (num == 0) {
+            cout << "el num es igual a 0" << endl;
+        }else cout << "el num es negativo" << endl;
+        }
+else if(num==3){ cout<<"ingrese un nombre"<<endl;
+    int nombre;
+    cin>>nombre;
+    cout<<"ingrese otro nombre"<<endl;
+    int nombre2;
+    cin>>nombre2;
+    cout<<"hola,"<<nombre<<"y"<<nombre2<<endl;
+
+
+}
+        return 0;
+    }
